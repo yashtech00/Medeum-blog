@@ -1,25 +1,46 @@
-#Key Features
- ##User Authentication:
+# Blog Website  
 
- - Signup Page: Create user accounts with validation and error handling.
- - Login Page: Secure user login with JWT authentication for maintaining session integrity.
-##Blog Functionality:
+A modern, feature-rich blog website built with **Hono.js**, **Prisma**, **PostgreSQL**, **Vite + React.js**, and **Tailwind CSS**. This project allows users to create, manage, and share their blogs while providing a smooth and engaging user experience.  
 
- - View Blogs: Display a list of blogs with titles, excerpts, and timestamps.
- - Create Blog: Provide a rich text editor for users to create engaging blog posts.
- - Edit/Delete Blogs: Allow authors to manage their content effectively.
-##User Profiles:
+## Table of Contents  
 
-Enable users to view and edit their profiles, including a display of their authored blogs.
-Responsive Design:
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-Use Tailwind CSS to ensure the website is fully responsive and visually appealing across devices.
-Real-time Updates:
+## Features  
 
-Implement features like notifications for new blog posts or comments via websocket or polling.
-Tech Stack Overview
-Hono.js: A minimal web framework for building APIs efficiently.
-Prisma: A modern ORM that simplifies working with the PostgreSQL database.
-PostgreSQL: A powerful open-source relational database for robust data storage.
-Vite + React.js: A blazing-fast front-end stack that enhances the user experience with quick rendering and hot module replacement.
-Tailwind CSS: A utility-first CSS framework that ensures styling consistency and flexibility.
+- **User Authentication**  
+  - Sign up and log in with secure JWT-based authentication.  
+- **Blog Management**  
+  - Create, edit, delete, and view blog posts.  
+  - Rich-text editor for creating engaging content.  
+- **User Profiles**  
+  - Users can view and edit their profiles and see their authored blogs.  
+- **Responsive Design**  
+  - Fully responsive design using Tailwind CSS for an excellent user experience on all devices.  
+- **Real-time Notifications**  
+  - Get notifications for new blog posts and comments using WebSockets.  
+
+## Tech Stack  
+
+- **Backend**:   
+  - [Hono.js](https://hono.dev/) - A lightweight web framework for building APIs.  
+  - [Prisma](https://www.prisma.io/) - An ORM for managing database interactions.  
+  - [PostgreSQL](https://www.postgresql.org/) - A powerful open-source relational database.  
+
+- **Frontend**:   
+  - [Vite](https://vitejs.dev/) - A fast build tool and development server for modern web projects.  
+  - [React.js](https://reactjs.org/) - A library for building user interfaces.  
+  - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for styling.
+
+## Demo
+
+
+https://github.com/user-attachments/assets/96a1f532-2733-4e4b-ba56-f990fc9e310a
+
+
+
