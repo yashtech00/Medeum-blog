@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "@prisma/extension-accelerate": "^1.2.1",
+    "@yashgtech007/medeum-blog": "^1.0.0",
+    "formidable": "^3.5.2",
+    "hono": "^4.6.15",
+    "multer": "^1.4.5-lts.1",
+    "prisma": "^6.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "@types/multer": "^1.4.12",
+    "wrangler": "^3.96.0"
+  }
+}
