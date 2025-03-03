@@ -22,10 +22,24 @@ import { useBlogs } from "../hooks";
             </div>
         </div>
     }
+    const handleSearch =()=>{
 
-    return <div>
+    }
+    return <div  className="">
         <Appbar />
-        <div  className="flex justify-center">
+        <div className="flex justify-center">
+        <div  className=" ">
+        <div className=" justify-center m-4">
+            <div className="mb-4">
+                <input placeholder="Search" onChange={handleSearch} className="p-2 border-2 border-gray-400 rounded-full w-full  "/>
+
+            </div>
+            <div>
+                fields
+            </div>
+        </div>
+        <div >
+            
             <div>
                 {blogs.map(blog => <BlogCard
                     id={blog.id}
@@ -35,6 +49,8 @@ import { useBlogs } from "../hooks";
                     publishedDate={"2nd Feb 2024"}
                 />)}
             </div>
+        </div>
+        </div>
         </div>
     </div>
 }
