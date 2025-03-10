@@ -1,4 +1,4 @@
-# Blog Website  
+# Medeum-Blog Website  
 
 A modern, feature-rich blog website built with **Hono.js**, **Prisma**, **PostgreSQL**, **Vite + React.js**, and **Tailwind CSS**. This project allows users to create, manage, and share their blogs while providing a smooth and engaging user experience.  
 
